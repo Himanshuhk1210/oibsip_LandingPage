@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pomegranate Shop Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img src="./Image/logo.png" alt="Company Logo" id="header-img"></a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#varieties" class="nav-link">varieties</a>
+          <a href="#our-service" class="nav-link">Service</a>
+          <a href="#benefits" class="nav-link">Benefits</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="./Image/fruit.jpg" alt="Image of Pomegranates">
+        </div>
+        <div class="eye-grabber">
+          <h1>Rich, Juicy, Delicious.</h1>
+          <h2>
+            Embrace the goodness of nature's bounty with our exquisite pomegranates,
+            cultivated with care and dedication to bring you the finest flavors from the diverse landscapes of India.
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">Buy Now</button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            We are a group of individuals with extensive expertise in cultivating and 
+            distributing pomegranates. With years of experience, we have gained 
+            profound insights into the characteristics of superior pomegranates 
+            and the intricacies of their cultivation. Pomegranates thrive in warm 
+            climates with well-drained soil and ample sunlight. Fortunately, our 
+            location in regions of India aligns perfectly with these optimal conditions 
+            for pomegranate growth. In our region, the climate fosters the development 
+            of pomegranates renowned for their exquisite taste, vibrant hues, and succulent juiciness.
+          </p>
+          <img
+            src="./Image/Anar.jpg">
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">VARIETIES</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="./Image/ruby.png" alt="photo of Ruby Pomegranates" class="variety">
+            <h4>Ruby Pomegranate</h4>
+            <p>
+              This deep red, medium-sized fruit is known for its sweet and tangy flavor. It
+              is mostly grown in regions with warm climates.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="./Image/Sweet.jpeg" alt="photo of Sweet Pomegranates" class="variety">
+            <h4>Sweet Pomegranate</h4>
+            <p>
+              A small, rounded, very juicy and sweet fruit variety that ripens
+              in late summer to early fall.
+            </p>
+          </div>
+          
+        </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">OUR SERVICE</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/w6H542X/Fresh.png">
+            </div>
+            <div class="txt-container">
+              <h5>Fresh</h5>
+              <p>
+                We deliver fresh pomegranates with a 100% guarantee of freshness.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/FKNq4Qr/delivered.png">
+            </div>
+            <div class="txt-container">
+              <h5>Fast</h5>
+              <p>
+                We deliver your orders as fast as possible, ensuring you get the freshest pomegranates.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/HHQK1wV/happy.png" alt="">
+            </div>
+            <div class="txt-container">
+              <h5>Satisfying</h5>
+              <p>
+                We guarantee 100% customer satisfaction. If you're not satisfied with your order, we'll make it right.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="benefits" class="sec-padding">
+        <h3 class="section-heading">BENEFITS</h3>
+        <div class="sec-content-div flexible">
+          <iframe
+            id="video"
+            width="560"
+            title="Benefits of Pomegranates"
+            height="315"
+            src="https://www.youtube.com/embed/aXkGJMpLLG0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </section>
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>To make an order or just to know more, contact us:</h6>
+          <form id="form" action="" method="POST">
+            <input type="email" name="email" id="email" placeholder="Your Email Address" required>
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by <a href="#">Himanshu</a>
+    </footer>
+  </body>
+</html>
+ 
